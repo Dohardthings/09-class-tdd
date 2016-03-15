@@ -1,5 +1,6 @@
 class Foo {
 
+
 }
 
-var bar;
+var bar = new Foo();

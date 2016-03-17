@@ -5,7 +5,7 @@ class Foo {
 var bar = new Foo();
 
 class Dog {
-  constructor(says) {
+  constructor() {
     this.says = 'life is ruff'
   }
 }
@@ -40,9 +40,9 @@ class Lion extends Cat {
 
 
 class KeepSecret {
-  constructor() {
+  constructor(mySecret) {
     this.squeal = function() {
-      return `My class rocks!`
+      return mySecret;
     }
   }
 }

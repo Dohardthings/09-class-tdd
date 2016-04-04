@@ -6,7 +6,7 @@ var bar = new Foo();
 
 class Dog {
   constructor() {
-    this.says = 'life is ruff'
+    this.says = 'life is ruff';
   }
 }
 var dog = new Dog;
@@ -14,10 +14,11 @@ var dog = new Dog;
 class Cat {
 
   constructor(garfield) {
-    this.garfield = garfield
-    this.growl = function(growl) {
-      return 'meow'
-    }
+    this.garfield = garfield;
+  }
+
+  growl() {
+    return 'meow';
   }
 }
 
